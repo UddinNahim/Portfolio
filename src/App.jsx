@@ -6,6 +6,8 @@ import { useEffect } from 'react'
 import Skills from './Components/skills/Skills'
 import Experience from './Components/experience/experience'
 import Language from './Components/Language/Language'
+import Projects from './Components/Projects/Projects'
+import Contact from './Contact/Contact'
 
 function App() {
   useEffect(()=> {
@@ -21,6 +23,8 @@ function App() {
     <Skills />
     <Experience />
     <Language />
+    <Projects />
+    <Contact />
     
   </main>
   )
