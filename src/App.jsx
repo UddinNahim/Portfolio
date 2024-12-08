@@ -8,6 +8,7 @@ import Experience from './Components/experience/experience'
 import Language from './Components/Language/Language'
 import Projects from './Components/Projects/Projects'
 import Contact from './Contact/Contact'
+import Footer from './Components/footer/Footer'
 
 function App() {
   useEffect(()=> {
@@ -25,6 +26,7 @@ function App() {
     <Language />
     <Projects />
     <Contact />
+    <Footer />
     
   </main>
   )
