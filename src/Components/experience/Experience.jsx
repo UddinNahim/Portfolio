@@ -17,14 +17,23 @@ export default function Experience() {
         {/* <!-- Right Section --> */}
         <div data-aos="fade-left" data-aos-delay="400" className="lg:flex-grow md:w-1/2 lg:pl-8 md:pl-8 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-orange-500">Experience</h1>
-            <h2 className="title-font font-bold text-white sm:text-2xl">2023:</h2>
-            <p className="mb-8 text-white leading-relaxed">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptate soluta, inventore veritatis quo odio repellat ad atque veniam aspernatur consectetur ipsum quis repellendus necessitatibus, ipsam nulla dolor id laudantium!
-            </p>
             <h2 className="title-font font-bold text-white sm:text-2xl">2024:</h2>
             <p className="mb-8 text-white leading-relaxed">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptate soluta, inventore veritatis quo odio repellat ad atque veniam aspernatur consectetur ipsum quis repellendus necessitatibus, ipsam nulla dolor id laudantium!
+            <p>
+  I am currently working as an intern at   
+  <a 
+    href="http://nexttechltd.com/" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="font-bold text-blue-500 hover:underline"
+  >
+      &nbsp; NextTech Limited
+  </a> 
+  (October 2024 – December 2024), where I am gaining hands-on experience in software development and practical insights into industry-standard practices. This role allows me to enhance my technical skills and contribute to real-world projects, aligning with my passion for machine learning and software engineering.
+</p>
+
             </p>
+            
         </div>
     </div>
 </section>

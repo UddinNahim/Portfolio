@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import hi from '../../../src/img/hi.png' 
-import CV from '../Hero/CV.pdf'
-import img from '../../img/img.png'
+import CV from '../Hero/My_CV.pdf'
+import img from '../../assets/img/Nahim.PNG'
 import { Aos } from 'aos/';
 
 
@@ -23,9 +23,8 @@ const Hero = () => {
                     <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center relative'>
                     <img src={hi} data-aos='fade-in' data-aos-delay='400'
                      className='absolute top-[350px] left-44 md:top-[-30px] md:left-[450px] transform-translate-x-1/2 -translate-y-1/2 w-20 h-20' alt=""  />
-                    <h1 className='title-font sm:text-4xl mb-4 font-bold text-white'>Hi!I am adeline</h1>
-                    <p className='mb-8 leading-relaxed'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nostrum, temporibus tempora voluptatum ut quibusdam modi omnis nobis dolorum nulla et enim, deleniti odio? Voluptatum earum soluta doloribus illum distinctio!
-                    Natus dolore inventore harum, esse sit neque beatae. Explicabo, aperiam. </p>
+                    <h1 className='title-font sm:text-4xl mb-4 font-bold text-white'>Hi!I am Nahim Uddin</h1>
+                    <p className='mb-8 leading-relaxed'> A final-year Computer Science and Engineering student at Green University of Bangladesh. With a strong passion for machine learning and software engineering, I aim to leverage my technical expertise and problem-solving skills to develop innovative solutions that make a meaningful impact. My goal is to contribute to cutting-edge projects in AI and software development while continuously learning and growing as a professional. </p>
                     <div className='flex justify-center
                     '>
                         <a href={CV} download>

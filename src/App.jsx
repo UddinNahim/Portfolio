@@ -9,6 +9,7 @@ import Language from './Components/Language/Language'
 import Projects from './Components/Projects/Projects'
 import Contact from './Contact/Contact'
 import Footer from './Components/footer/Footer'
+import SocialLinks from './Components/SocialLinks/SocialLinks'
 
 function App() {
   useEffect(()=> {
@@ -21,6 +22,7 @@ function App() {
   return (
   <main className='bg-[#0d182e]'>
     <Hero></Hero>
+    <SocialLinks />
     <Skills />
     <Experience />
     <Language />
